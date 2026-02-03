@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-
-// https://vitejs.dev/config/
 export default defineConfig({
+  // If you plan to publish to https://AKIN-TECH.github.io/ManzelTech/
+  // set base to "/ManzelTech/". If you publish to the user/org root site,
+  // set base to "/".
+  base: "/ManzelTech/",
   plugins: [react()],
-})
+});
