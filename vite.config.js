@@ -5,6 +5,6 @@ export default defineConfig({
   // If you plan to publish to https://AKIN-TECH.github.io/ManzelTech/
   // set base to "/ManzelTech/". If you publish to the user/org root site,
   // set base to "/".
-  base: "/ManzelTech/",
+  base: '/',
   plugins: [react()],
 });
